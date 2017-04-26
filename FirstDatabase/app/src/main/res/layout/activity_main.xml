@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:text="Username"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameValue"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:ems="10"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/password"
+      android:text="Password"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentRight="true"
+      android:layout_below="@+id/usernameValue"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordValue"
+        android:inputType="textPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/password"
+        android:ems="10"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/text_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="pick_date"
+    android:id="@+id/pick_date"/>
+</LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add User"
+        android:layout_alignLeft="@+id/passwordValue"
+        android:layout_alignRight="@+id/passwordValue"
+        android:layout_below="@+id/date_picker"
+        android:onClick="addUser"
+        android:id="@+id/addUser"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addUser"
+        android:layout_alignLeft="@+id/addUser"
+        android:layout_alignRight="@+id/addUser"
+        android:text="View Details"
+        android:id="@+id/viewDetails"/>
+
+        <!--android:onClick="viewDetails"-->
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter name required"
+        android:layout_below="@+id/viewDetails"
+        android:layout_alignLeft="@+id/viewDetails"
+        android:layout_alignRight="@+id/viewDetails"
+        android:id="@+id/requiredName"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View details"
+        android:id="@+id/viewDetailsRequired"
+        android:layout_below="@+id/requiredName"
+        android:layout_alignLeft="@+id/requiredName"
+        android:layout_alignRight="@+id/requiredName"
+        android:onClick="viewDetailsRequired"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/update"
+        android:onClick="update"
+        android:layout_below="@+id/viewDetailsRequired"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deleteName"
+        android:layout_below="@id/update"
+        android:hint="What to delete?"
+        android:layout_alignRight="@id/viewDetails"
+        android:layout_alignLeft="@id/viewDetails"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete"
+        android:layout_below="@id/deleteName"
+        android:text="Delete"
+        android:onClick="delete"
+        />
+
+</LinearLayout>

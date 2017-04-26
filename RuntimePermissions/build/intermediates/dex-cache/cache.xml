@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/bips/AndroidStudioProjects/RuntimePermissions/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="02cc138e007e1ecd9df9839d30bd02bf8ce384e3">
+        <dex dex="/home/bips/AndroidStudioProjects/RuntimePermissions/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9052239fafb4599ccb71110a5d512b5c0dce433c/classes.dex" />
+    </item>
+    <item
+        jar="/home/bips/AndroidStudioProjects/RuntimePermissions/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="07384cde17c09bd8604fc1a2a4820095ff3666fa">
+        <dex dex="/home/bips/AndroidStudioProjects/RuntimePermissions/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a669c223de240492890285108cac532df2a4053d/classes.dex" />
+    </item>
+    <item
+        jar="/home/bips/AndroidStudioProjects/RuntimePermissions/Application/build/intermediates/exploded-aar/com.android.support/support-v13/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a809555a2599054c3dcd1bf82b089315ac3a11df">
+        <dex dex="/home/bips/AndroidStudioProjects/RuntimePermissions/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v13-23.3.0_1a0f95bc99c4c3f1b5445b3aed1ca88e949bc4d6/classes.dex" />
+    </item>
+    <item
+        jar="/home/bips/AndroidStudioProjects/RuntimePermissions/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/home/bips/AndroidStudioProjects/RuntimePermissions/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_328b21cd4d68a69b353e253a7f1f43339f8b76e1/classes.dex" />
+    </item>
+    <item
+        jar="/home/bips/AndroidStudioProjects/RuntimePermissions/Application/build/intermediates/exploded-aar/com.android.support/design/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8a5238e4bdcd6568b82db669d41817de670586b8">
+        <dex dex="/home/bips/AndroidStudioProjects/RuntimePermissions/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.0.0_8d6f869cf1e3b2cdaa73ddd1653a78a8178f0b20/classes.dex" />
+    </item>
+    <item
+        jar="/home/bips/AndroidStudioProjects/RuntimePermissions/Application/build/intermediates/exploded-aar/com.android.support/support-v13/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8813bdcf7583107c4873150075d17c8072ec50cf">
+        <dex dex="/home/bips/AndroidStudioProjects/RuntimePermissions/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_4c55f4b630380dfc6802206326559e17d6238390/classes.dex" />
+    </item>
+    <item
+        jar="/home/bips/android/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/home/bips/AndroidStudioProjects/RuntimePermissions/Application/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_aa522ceb7cec355fdce0b8bb14b76b7cea17cbb2/classes.dex" />
+    </item>
+    <item
+        jar="/home/bips/AndroidStudioProjects/RuntimePermissions/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="/home/bips/AndroidStudioProjects/RuntimePermissions/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.3.0_19519ee32128d92135152928575b1053fa64b06d/classes.dex" />
+    </item>
+    <item
+        jar="/home/bips/AndroidStudioProjects/RuntimePermissions/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/home/bips/AndroidStudioProjects/RuntimePermissions/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_67e7af4ec0724a35474538a06f318e3ba505cfef/classes.dex" />
+    </item>
+    <item
+        jar="/home/bips/AndroidStudioProjects/RuntimePermissions/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/home/bips/AndroidStudioProjects/RuntimePermissions/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.0.0_12ac07108a4c275159c79c3fb23271308324ef5c/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbackground"
+  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+  <include layout="@layout/toolbar"></include>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:layout_marginBottom="60dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+    <customfonts.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:textColor="@color/colorheadtext"
+        android:gravity="center"
+        />
+
+    <customfonts.MyTextView
+        android:id="@+id/rupee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" &#x20B9; 100"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/colortitletext"
+      />
+    </LinearLayout>
+<!--//your order-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorwhitebackground"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_marginTop="20dp">
+
+        <customfonts.MyTextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Order"
+            android:textSize="16dp"
+            android:textColor="@color/colortitletext"/>
+
+
+
+<ImageView
+    android:layout_weight="1"
+    android:layout_width="70dp"
+    android:layout_height="20dp"
+    android:src="@drawable/pencil"/>
+
+    </LinearLayout>
+
+<!--//listview-->
+
+    <com.example.rp.foodplaceorder.ExpandableHeightListView
+        android:scrollbars="none"
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"></com.example.rp.foodplaceorder.ExpandableHeightListView>
+
+<customfonts.MyEditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter Promo Code (Optional)"
+    android:background="@color/colorwhitebackground"
+    android:gravity="center"
+    android:textSize="14dp"
+    android:textColor="@color/colorheadtext"
+    android:padding="20dp"
+    android:maxLength="6"
+    android:layout_marginTop="10dp"/>
+
+
+    <!--//Delivery info-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorwhitebackground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        android:padding="16dp"
+     >
+
+        <customfonts.MyTextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivery Information"
+            android:textSize="16dp"
+            android:textColor="@color/colortitletext"/>
+
+
+
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:src="@drawable/pencil"/>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorbackground"/>
+
+        <customfonts.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S-11 B 2nd Floor India Bulls "
+            android:layout_margin="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/colortitletext"/>
+
+
+
+    </LinearLayout>
+
+
+    <!--//payment info-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorwhitebackground">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:padding="16dp"
+            >
+
+            <customfonts.MyTextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Payment Information"
+                android:textSize="16dp"
+                android:textColor="@color/colortitletext"/>
+
+
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="70dp"
+                android:layout_height="20dp"
+                android:src="@drawable/pencil"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorbackground"/>
+
+        <!--<ImageView-->
+            <!--android:layout_width="60dp"-->
+            <!--android:layout_height="45dp"-->
+            <!--android:src="@drawable/visa"-->
+            <!--/>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <!--// card no.-->
+
+            <LinearLayout
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <customfonts.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Card Number"
+                    android:textSize="15dp"
+                    android:textColor="@color/colortitletext"/>
+
+                <customfonts.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1234 5678 9523 5546"
+                    android:textSize="13dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorheadtext"/>
+            </LinearLayout>
+
+            <!--// date .-->
+
+            <LinearLayout
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <customfonts.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Expiration Date"
+                    android:textSize="15dp"
+                    android:textColor="@color/colortitletext"/>
+
+                <customfonts.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="05/19"
+                    android:textSize="13dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorheadtext"/>
+            </LinearLayout>
+
+
+            <!--// cvv-->
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <customfonts.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cvv"
+                    android:textSize="15dp"
+                    android:textColor="@color/colortitletext"/>
+
+                <customfonts.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="956"
+                    android:textSize="13dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorheadtext"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
+
+    </LinearLayout>
+  <customfonts.MyTextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/colorbar"
+      android:text="Place Order"
+      android:gravity="center"
+      android:textColor="@color/colorgreen"
+      android:padding="16dp"
+      android:textSize="15dp"
+      android:letterSpacing="0.1"
+      android:layout_alignParentBottom="true"/>
+</RelativeLayout>

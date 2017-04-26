@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="debug">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/FordProfile/app/build/intermediates/pre-dexed/debug/debug_c180bb59f96e564dc7aaa8921484e9d2dc57c9ec.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FordProfile/app/build/intermediates/pre-dexed/debug/com.alexzh-circleimageview-1.1.2_28879ed15459ab5aac1515b7a22effe1f99a09de.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FordProfile/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0_953fb289ad2f264e926a26dc779c246026a79ca4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FordProfile/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.0_a19a41fff60a6fcb39e91bbbc24891775940cf94.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FordProfile/app/build/intermediates/pre-dexed/debug/picasso-2.3.2_6b05022a535a5e7385c35226630aa95683d4d749.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FordProfile/app/build/intermediates/pre-dexed/debug/com.mikhaellopez-circularimageview-2.0.1_208338bc0dbd53b81930ee4137ed3c7cb113abfd.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FordProfile/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.0_4ad87472991df1f6bed02e3eb814a9ed3942074f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FordProfile/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.0_65e7e63a12fdcc2dd3ee46b7c75ecfb03378fe79.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FordProfile/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.0_f1a388ceaba59ef18fea3cadb14bb28822efdb83.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FordProfile/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.0_c66332d7548cc3f4389f7ac395711966f1e5c0c0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

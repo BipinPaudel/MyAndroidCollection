@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/bips/AndroidStudioProjects/DownloadImages/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/home/bips/AndroidStudioProjects/DownloadImages/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.0_2b2198f1cdc7f54bc9d535d27a6d6c94ab6f3473/classes.dex" />
+    </item>
+    <item
+        jar="/home/bips/AndroidStudioProjects/DownloadImages/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4cc0f24eb7636a93c88e80edf18c172fe741e1a7">
+        <dex dex="/home/bips/AndroidStudioProjects/DownloadImages/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_841b439c3a9e73a67348fc49952326ab71a55349/classes.dex" />
+    </item>
+    <item
+        jar="/home/bips/AndroidStudioProjects/DownloadImages/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9d405904e78a4e061c9d487c013d3ebc3333b048">
+        <dex dex="/home/bips/AndroidStudioProjects/DownloadImages/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_eb9b9c731bdf9ef070835569433a1cc4d11ac3d0/classes.dex" />
+    </item>
+    <item
+        jar="/home/bips/android/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/home/bips/AndroidStudioProjects/DownloadImages/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.0_b8c9838c0b8373debad4e92058a357d8d94a2cd1/classes.dex" />
+    </item>
+    <item
+        jar="/home/bips/AndroidStudioProjects/DownloadImages/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/home/bips/AndroidStudioProjects/DownloadImages/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.0_324c7bdeb860d926095af98004a06428c92d8c9c/classes.dex" />
+    </item>
+
+</items>

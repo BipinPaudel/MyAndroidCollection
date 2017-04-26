@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/bips/AndroidStudioProjects/Ribbit1/app/src/main/res/values-v17/styles.xml -->
+    <eat-comment/>
+    <style name="AuthEditText">
+                <item name="android:layout_width">match_parent</item>
+                <item name="android:layout_height">wrap_content</item>
+                <item name="android:ems">10</item>
+                <item name="android:textColorHint">@color/light_gray</item>
+                <item name="android:textSize">17sp</item>
+                <item name="android:layout_alignLeft">@+id/backgroundImage</item>
+                <item name="android:layout_alignStart">@+id/backgroundImage</item>
+        </style>
+</resources>

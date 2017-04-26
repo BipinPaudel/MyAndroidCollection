@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/bips/AndroidStudioProjects/DownloadImages/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/bips/AndroidStudioProjects/DownloadImages/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/bips/AndroidStudioProjects/DownloadImages/app/build/intermediates/res/merged/debug/layout/item_flower.xml",
+        "source": "/home/bips/AndroidStudioProjects/DownloadImages/app/src/main/res/layout/item_flower.xml"
+    }
+]

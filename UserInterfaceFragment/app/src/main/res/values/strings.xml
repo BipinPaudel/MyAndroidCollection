@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">UserInterfaceFragment</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="titles">
+        <item> Title 1</item>
+        <item>Title 2</item>
+        <item>Title 3</item>
+        <item>Title 4</item>
+        </string-array>
+    <string-array name="descriptions">
+        <item>This is title 1. </item>
+        <item>This is title 2.</item>
+        <item>This is title 3.</item>
+        <item>This is title 4.</item>
+    </string-array>
+</resources>

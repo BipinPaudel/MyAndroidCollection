@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/bips/Downloads/android/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/home/bips/AndroidStudioProjects/Ribbit1/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-a0d68dbd316c2018b13dfb946a81c2fb263ec399.jar" />
+    </item>
+    <item
+        jar="/home/bips/AndroidStudioProjects/Ribbit1/app/libs/Parse-1.3.9.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="077b21d82e098a5d95e46b1868c664a23ada163a">
+        <dex dex="/home/bips/AndroidStudioProjects/Ribbit1/app/build/intermediates/pre-dexed/debug/Parse-1.3.9-ae7d694837ebb0eef93399ddbaf79ff8b9781e72.jar" />
+    </item>
+    <item
+        jar="/home/bips/AndroidStudioProjects/Ribbit1/app/libs/picasso-2.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ab19bfb23f641f189b6dca9a4d393f8dc291103a">
+        <dex dex="/home/bips/AndroidStudioProjects/Ribbit1/app/build/intermediates/pre-dexed/debug/picasso-2.1.1-f3bfe4205211aa4a9e341ac35c076bb08819a03c.jar" />
+    </item>
+    <item
+        jar="/home/bips/AndroidStudioProjects/Ribbit1/app/libs/commons-io-2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="/home/bips/AndroidStudioProjects/Ribbit1/app/build/intermediates/pre-dexed/debug/commons-io-2.4-7b7aa05de32789ee8ffb404c54237a89b94aabf8.jar" />
+    </item>
+
+</items>

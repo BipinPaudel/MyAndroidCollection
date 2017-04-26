@@ -1,0 +1,1 @@
+CHANGED,/home/bips/AndroidStudioProjects/AsyncTask/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hanselandpetal/catalog/MainActivity$MyTask.class

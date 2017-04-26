@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorbackground"
+    >
+
+
+    <include layout="@layout/toolbarwithback"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginBottom="165dp"
+        android:layout_marginTop="60dp">
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+
+    </LinearLayout>
+
+    <!--// payment option // -->
+
+    <LinearLayout
+        android:layout_above="@+id/payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:scrollbars="none"
+            android:layout_marginBottom="8dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                >
+
+                <include layout="@layout/payment1"></include>
+                <include layout="@layout/payment2"></include>
+                <include layout="@layout/payment4"></include>
+                <include layout="@layout/payment3"></include>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+
+    <!--******ORDER******-->
+
+
+    <customfonts.MyTextView
+        android:id="@+id/payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorbar"
+        android:text="PAYMENT"
+        android:textSize="13dp"
+        android:textColor="@color/colorgreen"
+        android:textStyle="bold"
+        android:padding="14dp"
+        android:gravity="center"
+        android:letterSpacing="0.02"
+        android:layout_alignParentBottom="true"
+
+        />
+
+
+</RelativeLayout>

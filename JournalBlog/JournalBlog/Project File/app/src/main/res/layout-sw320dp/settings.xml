@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ws.wolfsoft.journalblog.MainActivity"
+    android:background="#2b2e37"
+    >
+
+
+    <LinearLayout
+        android:layout_marginTop="22dp"
+        android:id="@+id/setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back2"
+            android:layout_gravity="left"
+            android:padding="16dp"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_below="@+id/setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="22dp"
+        >
+
+
+
+        <LinearLayout
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <customfonts.MyTextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Team"
+                android:textColor="@color/white"
+                android:textSize="@dimen/setting_text"
+                />
+
+            <customfonts.MyTextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exclusive Offers"
+                android:textColor="@color/white"
+                android:textSize="@dimen/setting_text"
+                />
+             </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <customfonts.MyTextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:textColor="@color/white"
+                android:textSize="@dimen/setting_text"
+                />
+
+            <customfonts.MyTextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Licencing"
+                android:textColor="@color/white"
+                android:textSize="@dimen/setting_text"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <customfonts.MyTextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Support"
+                android:textColor="@color/white"
+                android:textSize="@dimen/setting_text"
+                />
+
+            <customfonts.MyTextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy"
+                android:textColor="@color/white"
+                android:textSize="@dimen/setting_text"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <customfonts.MyTextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blog"
+                android:textColor="@color/white"
+                android:textSize="@dimen/setting_text"
+                />
+
+            <customfonts.MyTextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Refund policy"
+                android:textColor="@color/white"
+                android:textSize="@dimen/setting_text"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/linear1"
+        android:layout_marginTop="22dp"
+        >
+
+        <customfonts.MyTextView
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JOIN OUR NEWSLETTER"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+
+            />
+
+        <customfonts.MyTextView
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Join up andget nofified about new products, updates and special offers."
+            android:lineSpacingExtra="5dp"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+
+            />
+
+        <customfonts.MyEditText
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your email"
+            android:lineSpacingExtra="5dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:background="@drawable/rect1"
+            android:drawableRight="@drawable/next"
+            android:padding="12dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/linear2"
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fb"
+            />
+
+        <ImageView
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/twitter"
+            />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
